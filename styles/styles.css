@@ -18,3 +18,7 @@
  .section.library-config-container {
     padding: 0;
  }
+
+ main {
+   padding-top: 0;
+ }

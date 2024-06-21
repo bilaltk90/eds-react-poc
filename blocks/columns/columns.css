@@ -31,3 +31,54 @@
     order: unset;
   }
 }
+
+.section.homepage.columns-container {
+  background: #053840;
+  margin: 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section.homepage.columns-container .col{
+  background: white;
+  border-radius: 24px;
+  padding: 32px;
+}
+
+.section.homepage.columns-container .columns > div {
+  display: flex;
+  align-items: stretch;
+}
+.section.homepage.columns-container .col h2{
+  font-size: 20px;
+  line-height: 28px;
+}
+.section.homepage.columns-container .col p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.section.homepage.columns-container .col svg{
+  width: 32px;
+  height: 32px;
+}
+
+.section.quickcard.columns-container .columns > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.section.quickcard.columns-container .col{
+  text-align: center;
+}
+.section.quickcard.columns-container .col h2{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 800;
+  color: rgb(5, 56, 64);
+}
+.section.quickcard.columns-container .col p{
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(5, 56, 64);
+}
